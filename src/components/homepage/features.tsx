@@ -33,13 +33,13 @@ export function Features() {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="flex flex-col bg-[#FAFAFA] border border-[#000080] px-[24px] py-[40px] gap-4 rounded-md shadow-[#0003] shadow-lg"
+              className="flex flex-col bg-[#FAFAFA] border border-[#000080] px-[10px] py-[10px] gap-3 rounded-md shadow-[#0003] shadow-lg"
             >
               <Image
                 src={feature.icon}
                 alt={feature.title}
-                width={48}
-                height={48}
+                // width={48}
+                // height={48}
                 className="mb-4"
               />
               <h3 className="text-[16px] text-[#312231] font-bold font-ibmPlex">

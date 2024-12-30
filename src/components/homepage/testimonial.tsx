@@ -43,7 +43,7 @@ export function Testimonial() {
         <Swiper
           modules={[Navigation, Autoplay]}
           autoplay={{
-            delay: 3000,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           slidesPerView={1}

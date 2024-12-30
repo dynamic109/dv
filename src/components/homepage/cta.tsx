@@ -4,10 +4,10 @@ export function CTA() {
   return (
     <section className="py-16 md:text-center bg-[#e8feff]">
       <div className="max-w-[1140px] mx-auto px-6">
-        <h2 className="text-[24px] font-workSans font-bold mb-4">
+        <h2 className="text-[24px] text-[#333333] leading-8 font-workSans font-bold mb-4">
           Ready to take your business to the next level?
         </h2>
-        <p className="text-[16px] font-ibmPlex mb-8">
+        <p className="text-[16px] text-[#312231] font-ibmPlex mb-8">
           Contact us today to discover how our cloud solutions can benefit your
           organization.
         </p>

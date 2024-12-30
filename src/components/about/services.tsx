@@ -7,7 +7,7 @@ import Infinity from "../../../public/images/infinity-img.svg";
 
 export function Services() {
   return (
-    <section className="py-16">
+    <section className="py-4">
       <div className="max-w-[1140px] mx-auto px-6 xl:px-0">
         {/* Cloud Security */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-24">

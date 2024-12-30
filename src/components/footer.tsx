@@ -10,7 +10,7 @@ export function Footer() {
     <footer className="bg-[#000080] text-white">
       <div className="max-w-[940px] mx-auto px-6 py-14">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 ">
-          <div className="text-[14px] text-[#E8FEFF] font-ibmPlex grid grid-cols-2 md:flex md:items-center md:justify-center gap-3  w-full items-start justify-start md:space-x-4 mb-4 md:mb-0 ">
+          <div className="text-[14px] text-[#E8FEFF] font-ibmPlex font-normal leading-5 tracking-[-.1px] grid grid-cols-2 md:flex md:items-center md:justify-center gap-3  w-full items-start justify-start md:space-x-4 mb-4 md:mb-0 ">
             <Link href="/how-it-works">How it works</Link>
             <Link href="/pricing">Terms & Conditions</Link>
             <Link href="/demo">Contact Support</Link>

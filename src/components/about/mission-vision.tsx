@@ -3,7 +3,7 @@ import PlaceholderImg from "../../../public/images/placeholder-img.svg";
 
 export function MissionVision() {
   return (
-    <section className="py-16">
+    <section className="py-4">
       <div className="max-w-[1140px] mx-auto px-6 xl:px-0">
         {/* Mission Section */}
         <div className="grid md:grid-cols-2 items-center justify-center gap-12 mb-24">

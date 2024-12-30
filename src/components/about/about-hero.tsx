@@ -22,7 +22,7 @@ export function AboutHero() {
           </div>
           <div className="text-center space-y-3 max-w-3xl mx-auto">
             <p className="font-ibmPlex">WELCOME TO DIGIVOLVE</p>
-            <h1 className="text-[30px] text-[#050405] font-medium mb-8 font-workSans">
+            <h1 className="text-[32px] text-[#050405] leading-10 font-medium mb-8 font-workSans">
               At Digivolve, we are passionate about harnessing the power of
               cloud technologies to drive innovation and efficiency for
               businesses of all sizes.

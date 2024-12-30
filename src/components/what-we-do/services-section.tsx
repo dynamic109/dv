@@ -3,6 +3,9 @@ import Shield from "../../../public/images/shield-img.svg";
 import Robot from "../../../public/images/robot-img.svg";
 import Infinity from "../../../public/images/infinity-img.svg";
 import Molecule from "../../../public/images/molecule.svg";
+import GoogleDrive from "../../../public/images/google-drive-icon.svg";
+import GoogleIcon from "../../../public/images/google-icon.svg";
+import Aws from "../../../public/images/aws.svg";
 import { ServicesAccordion } from "../accordion";
 import { Button } from "../ui/button";
 
@@ -12,6 +15,13 @@ export function ServicesSection() {
       section: "Cloud Security",
       description:
         "Protect your data and applications with our comprehensive cloud security services, which include risk assessments, compliance management, and advanced threat protection.",
+      icon: [
+        {
+          icon1: GoogleDrive,
+        },
+        { icon2: GoogleIcon },
+        { icon3: Aws },
+      ],
       items: [
         {
           title: "Cloud Security Strategy Development",
@@ -39,6 +49,7 @@ export function ServicesSection() {
       section: "Automation",
       description:
         "Automate your business processes with our cutting-edge automation tools, designed to increase efficiency and reduce manual workloads.",
+
       items: [
         {
           title: "Business Process Automation",
@@ -61,6 +72,7 @@ export function ServicesSection() {
       section: "DevOps",
       description:
         "Enhance collaboration between your development and operations teams with our DevOps services, aimed at improving software delivery and operational efficiency.",
+
       items: [
         {
           title: "Infrastructure as Code (IaC)",
@@ -88,6 +100,7 @@ export function ServicesSection() {
       section: "Networking",
       description:
         "Ensure reliable and secure connectivity with our networking services, which include network design, implementation, and management.",
+
       items: [
         {
           title: "Cloud-Based Networking Solutions",
@@ -115,10 +128,10 @@ export function ServicesSection() {
 
   return (
     <section className="">
-      <div className="w-full mx-auto mt-14 md:mt-20">
+      <div className="w-full mx-auto mt-7 md:mt-14">
         <div className="bg-white ">
           <div
-            className="max-w-[1140px] mx-auto w-full flex flex-col md:flex-row py-10 px-5 xl:px-0 lg:px-20 items-center gap-12 justify-between my-14
+            className="max-w-[1140px] mx-auto w-full flex flex-col md:flex-row py-4 px-5 xl:px-0 lg:px-20 items-center gap-12 justify-between my-14
 "
           >
             <div className="w-full">
@@ -131,8 +144,20 @@ export function ServicesSection() {
               <p className="text-[16px] font-ibmPlex  text-[#312231]">
                 {accordionData[0].description}
               </p>
+              {/* <div className="flex gap-2">
+                {accordionData[0].icon?.map((iconObj: any, index: number) => (
+                  <div key={index}>
+                    {Object.values(iconObj).map((icon, i) => (
+                      <Image src={icon} alt={`icon-${index}-${i}`} key={i} />
+                    ))}
+                  </div>
+                ))}
+              </div> */}
               <ServicesAccordion data={accordionData[0].items} />
-              <Button variant={"secondary"} className="h-[44px] py-[12px] px-[24px]">
+              <Button
+                variant={"secondary"}
+                className="h-[44px] py-[12px] px-[24px]"
+              >
                 Request free consultation
               </Button>
             </div>
@@ -152,7 +177,10 @@ export function ServicesSection() {
                 {accordionData[1].description}
               </p>
               <ServicesAccordion data={accordionData[1].items} />
-              <Button variant={"secondary"} className="h-[44px] py-[12px] px-[24px]">
+              <Button
+                variant={"secondary"}
+                className="h-[44px] py-[12px] px-[24px]"
+              >
                 Request free consultation
               </Button>
             </div>
@@ -178,7 +206,10 @@ export function ServicesSection() {
                 {accordionData[2].description}
               </p>
               <ServicesAccordion data={accordionData[2].items} />
-              <Button variant={"secondary"} className="h-[44px] py-[12px] px-[24px]">
+              <Button
+                variant={"secondary"}
+                className="h-[44px] py-[12px] px-[24px]"
+              >
                 Request free consultation
               </Button>
             </div>
@@ -198,7 +229,10 @@ export function ServicesSection() {
                 {accordionData[3].description}
               </p>
               <ServicesAccordion data={accordionData[3].items} />
-              <Button variant={"secondary"} className="h-[44px] py-[12px] px-[24px]">
+              <Button
+                variant={"secondary"}
+                className="h-[44px] py-[12px] px-[24px]"
+              >
                 Request free consultation
               </Button>
             </div>

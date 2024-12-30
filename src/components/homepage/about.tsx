@@ -11,18 +11,18 @@ export function About() {
             <Image
               src={CloudLayers}
               alt="Cloud Architecture"
-              className="w-auto h-auto"
+              className="w-full h-full"
             />
           </div>
-          <div className=" flex flex-col ">
-            <div className="border-b-[3px] w-full border-[#000080] mb-3">
-              <div className=" font-ibmPlex inline-block bg-[#e5e0ef] text-[#000080] px-[20px] py-[6px] rounded-full text-sm mb-4 border border-[#000080]">
+          <div className=" flex flex-col items-start justify-start gap-[10px]">
+            <div className="border-b-[3px] w-full border-[#000080] space-y-[10px] pb-4">
+              <div className=" font-ibmPlex inline-block bg-[#e5e0ef] text-[#050405] px-[20px] py-[6px] rounded-full text-[12px] mb-4 border border-[#000080]">
                 Chat to our team now
               </div>
-              <h2 className="text-[#000080] text-3xl font-[700] mb-6 font-workSans">
+              <h2 className="text-[#000080] text-[32px] font-[700]  font-workSans">
                 At Digivolve
               </h2>
-              <p className="text-gray-600 mb-8 font-ibmPlex">
+              <p className="text-gray-600 font-ibmPlex">
                 We specialize in providing top-notch IT solutions and consulting
                 services focused on cloud technologies. Our team of experts is
                 dedicated to helping small businesses and large enterprises

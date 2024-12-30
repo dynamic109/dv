@@ -31,9 +31,9 @@ export function Features() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-4 bg-gray-50">
       <div className="max-w-[1140px] mx-auto px-6 xl:px-0">
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-4 gap-x-9">
           {features.map((feature, index) => (
             <div
               key={index}
