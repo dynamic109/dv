@@ -2,7 +2,7 @@ import { Mail, Phone } from "lucide-react";
 
 export function ContactInfo() {
   return (
-    <div className="max-w-[450px] space-y-5">
+    <div className="max-w-[450px] px-6 space-y-5">
       <div className="max-w-[160px] bg-[#E5E0EF] text-[#050405] px-[20px] py-[6px] rounded-full text-[12px] font-ibmPlex border border-[#000080]">
         Chat to our team now
       </div>

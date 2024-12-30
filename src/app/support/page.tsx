@@ -15,7 +15,7 @@ export default function SupportPage() {
     <div className="min-h-screen flex flex-col">
       <Navbar toggle={toggle} isNavOpen={isNavOpen} />
       <main className=" flex flex-col md:flex-row justify-center items-center py-16 mt-20">
-        <div className="max-w-[1140px]  mx-auto px-6 xl:px-0">
+        <div className="max-w-[1140px]  mx-auto md:px-6  xl:px-0">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-24 items-start">
             <ContactInfo />
             <div className="bg-white p-6 rounded-lg shadow-2xl">
